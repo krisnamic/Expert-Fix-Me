@@ -79,8 +79,8 @@
 			</div>
 		</div>
 		
-		<a href="" class="btn btn-warning">Ulangi</a>
-		<a href="<?= base_url('konsultasi/cetak'); ?>" target="_blank" class="btn btn-success">Cetak Hasil</a>
+		<a href="" class="btn" style="background-color: white; color: black;">Ulangi</a>
+		<a href="<?= base_url('konsultasi/cetak'); ?>" target="_blank" class="btn btn-primary">Cetak Hasil</a>
 	</div>
 
 	<div id="loading" class="section-body" style="display: none;">
@@ -215,8 +215,8 @@
 												<div class="progress-bar" role="progressbar" aria-valuenow="${parseFloat(el.nilai_cf)*100}" aria-valuemin="0" aria-valuemax="100" style="width: ${parseFloat(el.nilai_cf)*100}%">${parseFloat(el.nilai_cf)*100}%</div>
 											</div>
 										</div>
-										<div class="col-md-2">
-											<button class="btn btn-sm btn-primary cekSolusi" data-diagnosis="${el.diagnosis}" data-solusi="${el.solusi}">solusi</button>
+										<div>
+											<button class="btn btn-sm btn-success cekSolusi" data-diagnosis="${el.diagnosis}" data-solusi="${el.solusi}">solusi</button>
 										</div>
 									</div>
 								</li>

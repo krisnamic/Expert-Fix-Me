@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasil Konsultasi</title>
+    <title>Hasil Diagnosa</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@
     </style>
 </head>
 <body>
-    <h1 align="center">Hasil Konsultasi</h1>
+    <h1 align="center">Hasil Diagnosa</h1>
     <hr>
     <p>Tanggal: <?= date('d M Y'); ?></p>
     <h3>Gejala Terpilih</h3>

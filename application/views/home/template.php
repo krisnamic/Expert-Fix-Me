@@ -26,7 +26,7 @@
             <nav class="navbar navbar-expand-lg main-navbar">
 
                 <div class="container">
-                    <a href="<?= base_url('/'); ?>" class="navbar-brand sidebar-gone-hide">SI-PAK</a>
+                    <a href="<?= base_url('/'); ?>" class="navbar-brand sidebar-gone-hide">AmbisTech Lite</a>
                     <div class="navbar-nav">
                         <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
                     </div>
@@ -36,10 +36,9 @@
                         </a>
                         <ul class="navbar-nav">
                             <li class="nav-item <?= $this->uri->segment('1') == ""?'active':''; ?>"><a href="<?= base_url('/'); ?>" class="nav-link">Beranda</a></li>
-                            <li class="nav-item <?= $this->uri->segment('1') == "konsultasi"?'active':''; ?>"><a href="<?= base_url('/konsultasi'); ?>" class="nav-link">Konsultasi</a></li>
-                            <li class="nav-item <?= $this->uri->segment('1') == "about"?'active':''; ?>"><a href="<?= base_url('/about'); ?>" class="nav-link">Tentang</a></li>
-                            <li class="nav-item <?= $this->uri->segment('1') == "kontak"?'active':''; ?>"><a href="<?= base_url('/kontak'); ?>" class="nav-link">Kontak</a></li>
-                            <li class="nav-item"><a href="<?= base_url('/auth'); ?>" class="nav-link">Login</a></li>
+                            <li class="nav-item <?= $this->uri->segment('1') == "konsultasi"?'active':''; ?>"><a href="<?= base_url('/konsultasi'); ?>" class="nav-link">Diagnosa</a></li>
+                            <li class="nav-item <?= $this->uri->segment('1') == "about"?'active':''; ?>"><a href="<?= base_url('/about'); ?>" class="nav-link">Tentang Kami</a></li>
+                            <li class="nav-item" style="background-color: white; color: black; border-radius: 3px; margin-left: 1.2rem;"><a href="<?= base_url('/auth'); ?>" class="nav-link" style="color: black;">Masuk</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,10 +51,7 @@
             </div>
             <footer class="main-footer">
                 <div class="footer-left">
-                    Made with <span style="color: red;">&hearts;</span> <a href="https://arifintajul4.github.io/">Tajul Arifin S</a>
-                </div>
-                <div class="footer-right">
-                    1.0.0
+                    Made with <span style="color: red;">&hearts;</span> by AmbisTech Lite
                 </div>
             </footer>
         </div>

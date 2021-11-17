@@ -1864,7 +1864,7 @@ h6 .badge {
 	/* box-shadow: 0 2px 6px #acb5f6; */
 	background-color: #007BFF;
 	border-color: #007BFF;
-	float: right;
+	/* float: right; */
 }
 .btn-primary:focus,
 .btn-primary.disabled:focus {

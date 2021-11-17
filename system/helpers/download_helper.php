@@ -139,6 +139,8 @@ if ( ! function_exists('force_download'))
 		header('Content-Transfer-Encoding: binary');
 		header('Content-Length: '.$filesize);
 		header('Cache-Control: private, no-transform, no-store, must-revalidate');
+		header("Access-Control-Allow-Methods: GET, OPTIONS");
+		header("Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding");	
 
 		// If we have raw data - just dump it
 		if ($data !== NULL)

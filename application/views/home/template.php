@@ -17,6 +17,9 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="<?= base_url('assets/css/loading.css') ?>">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7dedc92fff.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="layout-3">

@@ -1811,9 +1811,9 @@ h6 .badge {
 .btn-warning,
 .btn-warning.disabled {
 	/* box-shadow: 0 2px 6px #ffc473; */
-	background-color: #ffa426;
-	border-color: #ffa426;
-	color: #fff;
+	background-color: white;
+	border-color: white;
+	color: black;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -1821,8 +1821,8 @@ h6 .badge {
 .btn-warning.disabled:hover,
 .btn-warning.disabled:focus,
 .btn-warning.disabled:active {
-	background-color: #ff990d !important;
-	color: #fff !important;
+	background-color: rgb(189, 189, 189) !important;
+	color: black !important;
 }
 
 .btn-outline-warning:hover,
@@ -1831,8 +1831,8 @@ h6 .badge {
 .btn-outline-warning.disabled:hover,
 .btn-outline-warning.disabled:focus,
 .btn-outline-warning.disabled:active {
-	background-color: #ffa426 !important;
-	color: #fff !important;
+	background-color: white !important;
+	color: black !important;
 }
 
 .btn-info,

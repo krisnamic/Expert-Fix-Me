@@ -298,7 +298,7 @@ select.form-control:not([size]):not([multiple]) {
 .form-group .control-label,
 .form-group > label {
 	font-weight: 600;
-	color: #34395e;
+	color: #c9d0d3;
 	font-size: 12px;
 	letter-spacing: 0.5px;
 }

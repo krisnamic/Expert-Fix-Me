@@ -52,7 +52,7 @@
             <div class="main-sidebar">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand">
-                        <a href="<?= base_url('/admin'); ?>">SI-PAK</a>
+                        <a href="<?= base_url('/admin'); ?>">Expert-Fix-Me</a>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
                         <a href="<?= base_url('/admin'); ?>">SPK</a>
@@ -80,7 +80,7 @@
             </div>
             <footer class="main-footer">
                 <div class="footer-left">
-                    Made with <span style="color: red;">&hearts;</span> <a target="_blank" href="https://arifintajul4.github.io/">Tajul Arifin S</a>
+                    Made with <span style="color: red;">&hearts;</span> <a target="_blank" href="https://arifintajul4.github.io/">AmbisTech Lite</a>
                 </div>
                 <div class="footer-right">
                     1.0.0

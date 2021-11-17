@@ -3906,7 +3906,7 @@ body.layout-3 .main-footer {
 .main-sidebar .sidebar-menu li.active a {
 	color: #007BFF;
 	font-weight: 600;
-	background-color: #f8fafb;
+	background-color: #282828;
 }
 .main-sidebar .sidebar-menu li.active a.has-dropdown:after {
 	transform: translate(0, -50%) rotate(90deg);
@@ -3991,7 +3991,7 @@ body.layout-3 .main-footer {
 
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active a {
 	background-color: #007BFF;
-	color: #fff;
+	color: #282828;
 }
 
 body:not(.sidebar-mini)

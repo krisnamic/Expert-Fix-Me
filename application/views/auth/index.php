@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Login Si-Pak</title>
+    <title>Login Admin</title>
     <link rel="icon" href="<?= base_url('assets/img/favicon.ico') ?>" type="image/gif" sizes="16x16">
 
     <!-- General CSS Files -->

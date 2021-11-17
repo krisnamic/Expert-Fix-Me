@@ -789,8 +789,8 @@ select.form-control:not([size]):not([multiple]) {
 /* 3.5 Card */
 .card {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-	background-color: #282828;
-	border-radius: 2px;
+	background-color: #383838;
+	border-radius: 3px;
 	border: none;
 	position: relative;
 	margin-bottom: 30px;
@@ -801,7 +801,7 @@ select.form-control:not([size]):not([multiple]) {
 	background-color: #383838;
 	padding: 20px 25px;
 	/* border-radius: 8px; */
-	border: 1px solid #959596;
+	/* border: 1px solid #959596; */
 }
 .card .navbar {
 	position: static;
@@ -809,9 +809,8 @@ select.form-control:not([size]):not([multiple]) {
 .card .card-body {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-radius: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	/* border-radius: 5px;
+	margin-bottom: 20px; */
 }
 .card .card-body .section-title {
 	margin: 30px 0 10px 0;
@@ -940,7 +939,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .card .card-footer {
 	background-color: transparent;
-	border: 1px solid #959596;
+	/* border: 1px solid #959596; */
 }
 .card.card-mt {
 	margin-top: 30px;

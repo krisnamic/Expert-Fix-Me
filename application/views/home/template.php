@@ -42,7 +42,7 @@
                             <li class="nav-item <?= $this->uri->segment('1') == ""?'active':''; ?>"><a href="<?= base_url('/'); ?>" class="nav-link">Beranda</a></li>
                             <li class="nav-item <?= $this->uri->segment('1') == "konsultasi"?'active':''; ?>"><a href="<?= base_url('/konsultasi'); ?>" class="nav-link">Diagnosa</a></li>
                             <li class="nav-item <?= $this->uri->segment('1') == "about"?'active':''; ?>"><a href="<?= base_url('/about'); ?>" class="nav-link">Tentang Kami</a></li>
-                            <li class="nav-item" style="background-color: white; color: black; border-radius: 3px; margin-left: 1.2rem;"><a href="<?= base_url('/auth'); ?>" class="nav-link" style="color: black;">Masuk</a></li>
+                            <li class="nav-item" style="background-color: white; color: black; border-radius: 3px; margin-left: 1.2rem;"><a href="<?= base_url('/auth'); ?>" class="nav-link" style="color: black;">Login Admin</a></li>
                         </ul>
                     </div>
                 </div>

@@ -55,7 +55,7 @@
                         <a href="<?= base_url('/admin'); ?>">Expert-Fix-Me</a>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="<?= base_url('/admin'); ?>">SPK</a>
+                        <a href="<?= base_url('/admin'); ?>">EFM</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="<?= $this->uri->segment('1')=='admin'?'active':''; ?>"><a class="nav-link" href="<?= base_url('/admin'); ?>"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>

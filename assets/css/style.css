@@ -1044,7 +1044,7 @@ select.form-control:not([size]):not([multiple]) {
 .card.card-statistic-2 .card-body {
 	font-size: 26px;
 	font-weight: 700;
-	color: #34395e;
+	color: #fff;
 	padding-bottom: 0;
 }
 .card.card-statistic-1,
@@ -3359,7 +3359,7 @@ pre {
 	top: 0;
 	height: 100%;
 	width: 250px;
-	background-color: #000;
+	background-color: #282828;
 	z-index: 880;
 	left: 0;
 }
@@ -3389,7 +3389,7 @@ body.sidebar-mini .main-sidebar:after {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 	content: " ";
 	position: fixed;
-	background-color: #fff;
+	background-color: #282828;
 	width: 65px;
 	height: 100%;
 	left: 0;
@@ -3836,7 +3836,7 @@ body.layout-3 .main-footer {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-weight: 700;
-	color: #000;
+	color: #fff;
 }
 
 .main-sidebar .sidebar-user {

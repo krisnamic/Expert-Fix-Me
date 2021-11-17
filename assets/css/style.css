@@ -111,6 +111,10 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 	background-color: #191d21 !important;
 }
 
+.form-control:disabled {
+	background-color: gray !important;
+}
+
 .text-primary,
 .text-primary-all *,
 .text-primary-all *:before,
@@ -1353,6 +1357,7 @@ table tr:hover .table-links {
 	max-width: 100%;
 	border: none;
 	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+	background-color: #383838;
 }
 
 .modal.show .modal-content {
@@ -3218,7 +3223,7 @@ pre {
 .section .section-header {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
-	background-color: #282828;
+	background-color: #383838;
 	border-radius: 3px;
 	border: none;
 	position: relative;

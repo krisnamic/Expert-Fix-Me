@@ -30,7 +30,7 @@
             <nav class="navbar navbar-expand-lg main-navbar">
 
                 <div class="container">
-                    <a href="<?= base_url('/'); ?>" class="navbar-brand sidebar-gone-hide">AmbisTech Lite</a>
+                    <a href="<?= base_url('/'); ?>" class="navbar-brand sidebar-gone-hide">EXPERT-FIX-ME</a>
                     <div class="navbar-nav">
                         <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
                     </div>

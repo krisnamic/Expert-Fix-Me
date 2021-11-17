@@ -37,12 +37,9 @@
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" src="<?= base_url('assets/img/avatar/avatar-1.png'); ?>" class="rounded-circle mr-1">
-                            <div class="d-sm-none d-lg-inline-block">Hi, Administrator</div>
+                            <div class="d-sm-none d-lg-inline-block">Halo, Admin</div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="" class="dropdown-item has-icon">
-                                <i class="far fa-user"></i> Profile
-                            </a>
                             <div class="dropdown-divider"></div>
                             <a href="<?= base_url('auth/logout'); ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
@@ -62,7 +59,7 @@
                     <ul class="sidebar-menu">
                         <li class="<?= $this->uri->segment('1')=='admin'?'active':''; ?>"><a class="nav-link" href="<?= base_url('/admin'); ?>"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>
                         <li class="nav-item <?= $this->uri->segment('1')=='diagnosis' || $this->uri->segment('1')=='gejala' || $this->uri->segment('1')=='solusi' || $this->uri->segment('1')=='basis' || $this->uri->segment('1')=='aturan' ?'active':''; ?> dropdown">
-                            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Master Data</span></a>
+                            <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Manajemen Data</span></a>
                             <ul class="dropdown-menu">
                                 <li class="<?= $this->uri->segment('1')=='diagnosis'?'active':''; ?>"><a class="nav-link" href="<?= base_url('diagnosis'); ?>">Diagnosis</a></li>
                                 <li class="<?= $this->uri->segment('1')=='gejala'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('gejala'); ?>">Gejala</a></li>
@@ -82,7 +79,7 @@
             </div>
             <footer class="main-footer">
                 <div class="footer-left">
-                    Made with <span style="color: red;">&hearts;</span> <a target="_blank" href="https://arifintajul4.github.io/">AmbisTech Lite</a>
+                    Made with <span style="color: red;">&hearts;</span> by AmbisTech Lite
                 </div>
                 <div class="footer-right">
                     1.0.0

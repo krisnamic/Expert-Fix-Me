@@ -51,7 +51,7 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="myModalLabel"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true" style="color: red">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -69,8 +69,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
+                <button type="submit" name="submit" class="btn btn-success">Simpan</button>
             </div>
         </div>
         </form>

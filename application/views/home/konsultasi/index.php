@@ -10,7 +10,7 @@
 	<div id="awal" class="section-body">
 		<h2 class="section-title">Selamat datang,</h2>
 		<p class="section-lead">Silahkan pilih gejala awal kerusakan komputer yang dialami!</p>
-		<input type="text" class="form-control mb-3" placeholder="Cari gejala awal kerusakan">
+		<!-- <input type="text" class="form-control mb-3" placeholder="Cari gejala awal kerusakan"> -->
 
 		<div class="row">
 			<?php foreach($gejala as $row): ?>

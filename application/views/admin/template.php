@@ -61,13 +61,13 @@
                     </div>
                     <ul class="sidebar-menu">
                         <li class="<?= $this->uri->segment('1')=='admin'?'active':''; ?>"><a class="nav-link" href="<?= base_url('/admin'); ?>"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>
-                        <li class="nav-item <?= $this->uri->segment('1')=='diagnosis' || $this->uri->segment('1')=='gejala' || $this->uri->segment('1')=='solusi' || $this->uri->segment('1')=='basispengetahuan' || $this->uri->segment('1')=='aturan' ?'active':''; ?> dropdown">
+                        <li class="nav-item <?= $this->uri->segment('1')=='diagnosis' || $this->uri->segment('1')=='gejala' || $this->uri->segment('1')=='solusi' || $this->uri->segment('1')=='basis' || $this->uri->segment('1')=='aturan' ?'active':''; ?> dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Master Data</span></a>
                             <ul class="dropdown-menu">
                                 <li class="<?= $this->uri->segment('1')=='diagnosis'?'active':''; ?>"><a class="nav-link" href="<?= base_url('diagnosis'); ?>">Diagnosis</a></li>
                                 <li class="<?= $this->uri->segment('1')=='gejala'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('gejala'); ?>">Gejala</a></li>
                                 <li class="<?= $this->uri->segment('1')=='solusi'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('solusi'); ?>">Solusi</a></li>
-                                <li class="<?= $this->uri->segment('1')=='basispengetahuan'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('basispengetahuan'); ?>">Basis Data</a></li>
+                                <li class="<?= $this->uri->segment('1')=='basis'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('basis'); ?>">Basis Data</a></li>
                                 <li class="<?= $this->uri->segment('1')=='aturan'?'active':''; ?>" ><a class="nav-link" href="<?= base_url('aturan'); ?>">Aturan</a></li>
                             </ul>
                         </li>

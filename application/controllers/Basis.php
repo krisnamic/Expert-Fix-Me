@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class BasisPengetahuan extends CI_Controller {
+class Basis extends CI_Controller {
 
 	public function __construct()
     {
@@ -9,13 +9,13 @@ class BasisPengetahuan extends CI_Controller {
         if (!$this->session->userdata('username')) {
             redirect('auth');
         }
-        $this->load->model('M_BasisPengetahuan');
+        $this->load->model('M_Basis');
     }
 
 	public function index()
 	{
 		$data['title'] = "Admin";
-        $data['basis_pengetahuan'] = $this->M_BasisPengetahuan->getAll();
+        $data['basis_pengetahuan'] = $this->M_Basis->getAll();
         // var_dump($data['basis_pengetahuan']); die;
         $data['diagnosis'] = $this->db->get('diagnosis')->result_array();
         $data['gejala'] = $this->db->get('gejala')->result_array();
@@ -38,13 +38,13 @@ class BasisPengetahuan extends CI_Controller {
 
             if($this->db->insert('basis_pengetahuan', $data)){
                 $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Berhasil Tambah Data</div>');
-                redirect('/basispengetahuan');
+                redirect('/basis');
             }else{
                 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Gagal Tambah Data, Coba Lagi!</div>');
-                redirect('/basispengetahuan');
+                redirect('/basis');
             }
         }else{
-            redirect('/basispengetahuan');
+            redirect('/basis');
         }
     }
 
@@ -60,23 +60,23 @@ class BasisPengetahuan extends CI_Controller {
 
             if($this->db->update('basis_pengetahuan', $data, ['kd_basis_pengetahuan'=>$id])){
                 $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Berhasil Ubah Data</div>');
-                redirect('/basispengetahuan');
+                redirect('/basis');
             }else{
                 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Gagal Ubah Data, Coba Lagi!</div>');
-                redirect('/basispengetahuan');
+                redirect('/basis');
             }
         }else{
-            redirect('/basispengetahuan');
+            redirect('/basis');
         }
     }
 
     public function hapus($id=''){
         if($this->db->delete('basis_pengetahuan', ['kd_basis_pengetahuan'=>$id])){
             $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Berhasil Hapus Data</div>');
-            redirect('/basispengetahuan');
+            redirect('/basis');
         }else{
             $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Gagal Hapus Data, Coba Lagi!</div>');
-            redirect('/basispengetahuan');
+            redirect('/basis');
         }
     }
 }

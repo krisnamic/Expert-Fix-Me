@@ -29,7 +29,7 @@
                                     <td><?= $row['nilai_md']; ?></td>
                                     <td class="text-center">
                                         <button class="btn btn-block btn-sm btn-warning edit" data-id="<?= $row['kd_basis_pengetahuan']; ?>">edit</button>
-                                        <a onclick="return confirm('apakah anda yakin ingin menghapus data ini?')" href="<?= base_url('basispengetahuan/hapus/'.$row['kd_basis_pengetahuan']); ?>" class="btn btn-block btn-sm btn-danger">hapus</a>
+                                        <a onclick="return confirm('apakah anda yakin ingin menghapus data ini?')" href="<?= base_url('basis/hapus/'.$row['kd_basis_pengetahuan']); ?>" class="btn btn-block btn-sm btn-danger">hapus</a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
@@ -89,7 +89,7 @@
 
 <script>
     $('#addData').on('click', function(){
-        const url = "<?= base_url('basispengetahuan/store'); ?>";
+        const url = "<?= base_url('basis/store'); ?>";
         $('#form').attr('action', url)
         $('#myModalLabel').text('Tambah Data')
         $('#kd_gejala').attr('required', true)
@@ -106,11 +106,11 @@
     $(document).on('click', '.edit', function(){
         const id = $(this).data('id');
         $.ajax({
-            url: "<?= base_url('basispengetahuan/getDetail') ?>"+"/"+id,
+            url: "<?= base_url('basis/getDetail') ?>"+"/"+id,
             method: 'GET',
             dataType: 'JSON',   
             success: function(res){
-                const url = "<?= base_url('basispengetahuan/update'); ?>"+"/"+id;
+                const url = "<?= base_url('basis/update'); ?>"+"/"+id;
                 $('#myModalLabel').text('Ubah Data')
                 $('#kd_gejala').attr('required', false)
                 $('#kd_diagnosis').attr('required', false)

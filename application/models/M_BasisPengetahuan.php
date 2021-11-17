@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class M_BasisPengetahuan extends CI_Model {
+class M_Basis extends CI_Model {
 
     public function getAll()
     {
